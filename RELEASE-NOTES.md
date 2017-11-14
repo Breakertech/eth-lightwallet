@@ -1,5 +1,9 @@
 # Release Notes #
 
+## Version 2.5.7 - 2017-11-14 ##
+
+* Fixed an issue with `signing.concatSig` where the `r` and `s` were not left padded, and the resulting signature was invalid.
+
 ## Version 2.5.6 - 2017-06-24 ##
 
 * Switch back to using npm version of `web3.js`, since version `0.19.1` is now fixed.
